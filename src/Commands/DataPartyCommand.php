@@ -1,5 +1,5 @@
 <?php
-namespace Joinbiz\Data\Models\Party\Commands;
+namespace Commands;
 use Illuminate\Console\Command;
 
 class DataPartyCommand extends Command

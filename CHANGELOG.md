@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `data-common` will be documented in this file.
+All notable changes to `data-party` will be documented in this file.
