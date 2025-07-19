@@ -3,6 +3,7 @@
 namespace Joinbiz\Data\Models\Party;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 
 /**
  * @property string $party_id
@@ -24,14 +25,14 @@ use Illuminate\Database\Eloquent\Model;
  * @property Party $party
  * @property RoleType $roleType
  */
-class PartyContactMech extends Model
+class PartyContactMech extends Pivot
 {
     const CREATED_AT = 'created_stamp';
     const UPDATED_AT = 'last_updated_stamp';
 
     /**
      * The table associated with the model.
-     * 
+     *
      * @var string
      */
     protected $table = 'party_contact_mech';
